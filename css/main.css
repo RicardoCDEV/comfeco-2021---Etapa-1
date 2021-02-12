@@ -1,0 +1,137 @@
+main{
+    background-color: white;
+    width: 100%;
+    height: 516px;
+}
+
+    .sign-in-sign-up{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #c4c4c4;
+        width: 420px;
+        min-height: 200px;
+        padding: 50px 70px;
+        box-sizing: border-box;
+    }
+
+            .sign-option{
+                display: inline-block;
+                width: 49.2%;
+                box-sizing: border-box;
+            }
+            
+                .sign-option p{
+                    display: block;
+                    text-align: center;
+                    color: mediumblue;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                    border-bottom: solid #c4c4c4 2px;
+                }
+
+                .sign-option p:hover, p.selected-option{
+                    border-bottom: solid black 2px;
+                }
+
+            .option-1{
+                border-right: solid black 1px;
+            }
+
+                .option-1 p{
+                    width: 115px;
+                    margin-left: 5px;
+                }
+
+            .option-2{
+                border-left: solid black 1px;
+            }
+
+                .option-2 p{
+                    width: 91px;
+                    margin-left: 18px;
+                }
+
+        .login-form{
+            width: 100%;
+            padding-top: 40px;
+        }
+        
+            #email-login, #password-login, .login-button, button{
+                width: 100%;
+                padding: 10px;
+                border-radius: 12px;
+                box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                outline: none;
+                border-width: 0px;
+            }
+
+            #password-login{
+                margin-top: 25px;
+            }
+
+            .login-options{
+                width: 100%;
+                margin: 16px 0;
+            }
+            
+                .login-option{
+                    font-size: 9.3px;
+                    color: white;
+                }
+            
+                #keep-conected-checkbox{
+                    display: none;
+                }
+
+                #keep-conected-checkbox-label{
+                    width: 15px;
+                    height: 15px;
+                    background-color: white;
+                    float: right;
+                    font-size: 11px;
+                    padding-left: 3px;
+                    box-sizing: border-box;
+                    margin-right: 3px;
+                }
+
+                    #keep-conected-checkbox:checked ~ #keep-conected-checkbox-label p{
+                        display: block;
+                    }
+
+                    #keep-conected-checkbox ~ #keep-conected-checkbox-label p{
+                        display: none;
+                    }
+
+                    .keep-conected-text{
+                        float: right;
+                    }
+                
+                    .password-forgotten{
+                        float: left;
+                        cursor: pointer;
+                    }
+
+                    button{
+                        margin: 16px 0;
+                        background-color: #554646;
+                        color: white;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+
+                    .with-facebook, .with-google{
+                        width: 49%;
+                    }
+
+                    .with-google{
+
+                    }
+
+                    .social-media-text{
+                        color: white;
+                        font-size: 11px;
+                        text-align: center;
+                    }
