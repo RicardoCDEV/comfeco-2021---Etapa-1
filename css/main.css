@@ -1,13 +1,12 @@
 main{
     background-color: white;
     width: 100%;
-    height: 516px;
+    min-height: 516px;
 }
 
     .sign-in-sign-up{
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 50px auto;
+        margin-bottom: 0;
         background-color: #c4c4c4;
         width: 420px;
         min-height: 200px;
@@ -52,12 +51,12 @@ main{
                     margin-left: 18px;
                 }
 
-        .login-form{
+        .login-form, .register-form, .password-forgotten-form{
             width: 100%;
             padding-top: 40px;
         }
         
-            #email-login, #password-login, .login-button, button{
+            .input, button{
                 width: 100%;
                 padding: 10px;
                 border-radius: 12px;
@@ -66,6 +65,10 @@ main{
                 -moz-box-sizing: border-box;
                 outline: none;
                 border-width: 0px;
+            }
+
+            .register-input{
+                margin-bottom: 10px;
             }
 
             #password-login{
@@ -95,6 +98,7 @@ main{
                     padding-left: 3px;
                     box-sizing: border-box;
                     margin-right: 3px;
+                    cursor: pointer;
                 }
 
                     #keep-conected-checkbox:checked ~ #keep-conected-checkbox-label p{
@@ -126,12 +130,41 @@ main{
                         width: 49%;
                     }
 
-                    .with-google{
-
-                    }
-
                     .social-media-text{
                         color: white;
                         font-size: 11px;
                         text-align: center;
                     }
+
+        .register-form{
+            display: none;
+        }
+
+            .password-forgotten-title{
+                font-size: 22px;
+                color: #6970f8;
+                margin-bottom: 6px;
+            }
+
+            .password-forgotten-instruccions{
+                color: white;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+
+            #send-link-button{
+                width: 50%;
+            }
+
+            .login-text-link{
+                float: right;
+                margin-top: 25px;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        
+        .password-forgotten-form{
+            display: none;
+            padding-top: 0px;
+        }
