@@ -20,7 +20,7 @@
                 
                 <div class="sign-in-sign-up-selection">
                     <div class="sign-option option-1">
-                        <p>Inicia Sección</p>
+                        <p class="selected-option">Inicia Sección</p>
                     </div><div class="sign-option option-2">
                         <p>Regístrarse</p>
                     </div>
@@ -28,10 +28,10 @@
                 
                 <form action="" class="login-form">
                     <label for="email-login" id="email-login-label">
-                        <input type="email" name="" id="email-login" placeholder="Correo Electronico">
+                        <input type="email" name="" id="email-login" placeholder="Correo Electrónico" class="input">
                     </label>
                     <label for="password-login" id="password-login-label">
-                        <input type="password" name="" id="password-login" placeholder="Contraseña">
+                        <input type="password" name="" id="password-login" placeholder="Contraseña" class="input">
                     </label>
                     <div class="login-options">
                         <input type="checkbox" name="" id="keep-conected-checkbox">
@@ -49,6 +49,36 @@
                     </div>
                 </form>
 
+                <form action="" class="register-form">
+                    <label for="" id="nick-regiter-label">
+                        <input type="email" name="" id="nick-regiter" placeholder="Nick" class="input register-input">
+                    </label>
+                    <label for="" id="email-register-label">
+                        <input type="email" name="" id="email-register" placeholder="Correo Electrónico" class="input register-input">
+                    </label>
+                    <label for="" id="password-register-label">
+                        <input type="email" name="" id="password-register" placeholder="Contraseña" class="input register-input">
+                    </label>
+                    <label for="" id="confirm-password-register-label">
+                        <input type="email" name="" id="confirm-password-register" placeholder="Confirmar Contraseña" class="input register-input">
+                    </label>
+                    <button type="button" id="">Crear una Cuenta</button>
+                    <p class="social-media-text">O registrate usando</p>
+                    <div class="login-social-medias-options">
+                        <button type="button" class="login-button with-facebook" id="">Ingresar con facebook</button>
+                        <button type="button" class="login-button with-google" id="">Ingresar con Google</button>
+                    </div>
+                </form>
+
+                <form action="" class="password-forgotten-form">
+                    <h2 class="password-forgotten-title">Reasignar Contraseña</h2>
+                    <p class="password-forgotten-instruccions">Te enviaremos un correo electrónico con un enlace privado para que reasignes tu contraseña. Este enlace será válido por una hora.</p>
+                    <label for="" id="email-password-forgotten">
+                        <input type="email" name="" id="email-password-forgotten" placeholder="Correo Electrónico" class="input register-input">
+                    </label>
+                    <button type="button" id="send-link-button">Enviar Enlace</button>
+                    <p class="login-text-link">Iniciar sesión</p>
+                </form>
             </div>
         </main>
         <!-- ******************** FIN DE MAIN ******************** -->
